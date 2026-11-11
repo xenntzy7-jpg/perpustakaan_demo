@@ -1,0 +1,2 @@
+ALTER TABLE buku
+    ADD COLUMN file_ebook VARCHAR(255) NULL DEFAULT NULL AFTER sampul;
